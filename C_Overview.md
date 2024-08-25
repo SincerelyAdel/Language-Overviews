@@ -1,5 +1,19 @@
 # C Overview
 
+## Installing the tool-chain
+
+To run C programs, you need both a compiler and text-editor/IDE, the instructions below are for the compiler:
+
+1. Go to https://winlibs.com/#download-release
+
+2. Pick the zip folder for your system, use the latest version of `gcc`, `mingw64`, and universal C runtime `ucrt`
+
+3. Extract the zip folder in your root directory `most likely C:\` in case you want to extract it some place else, make sure there are no spaces in the directory.
+
+4. Copy the path to the bin folder to your environment path variables if the extraction was at `C:\` then the path is: `C:\mingw64\bin`
+
+5. To make sure the installation was successful, open the command window and type: `gcc --version`, it shouldnt have any errors
+
 ## Empty Main Function
 
 stdio.h is a C header file containing function definitions, this specific one is for input/output.
